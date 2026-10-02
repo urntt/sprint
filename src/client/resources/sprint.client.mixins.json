@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.urntt.sprint.mixin",
+	"compatibilityLevel": "JAVA_${java_version}",
+	"client": [
+		"LivingEntityMixin",
+		"LocalPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

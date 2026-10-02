@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "sprint-gametest",
+	"version": "0.0.0",
+	"name": "sprint game tests",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"com.urntt.sprint.gametest.SprintLogicGameTest",
+			"com.urntt.sprint.gametest.SprintClientGameTest",
+			"com.urntt.sprint.gametest.SprintMultiplayerGameTest"
+		]
+	},
+	"depends": {
+		"sprint": "*"
+	}
+}

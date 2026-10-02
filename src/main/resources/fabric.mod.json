@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "sprint",
+	"version": "${version}",
+	"name": "sprint",
+	"description": "Gives the player more control over sprinting.",
+	"authors": [
+		"urntt"
+	],
+	"contact": {
+		"homepage": "https://github.com/urntt/sprint",
+		"sources": "https://github.com/urntt/sprint",
+		"issues": "https://github.com/urntt/sprint/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/sprint/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.urntt.sprint.SprintClient"
+		],
+		"modmenu": [
+			"com.urntt.sprint.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "sprint.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=${java_version}",
+		"fabric-api": ">=${fabric_api_version}"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
