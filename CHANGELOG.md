@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.0+26.3] - 2026-10-02
+
 ### Added
 
 - Force Sprint, on by default: sprint whenever vanilla allows it, as if the sprint key were always held. It is a saved setting, so it stays on after death, teleports, dimension changes, rejoining a world, and restarting the game.
